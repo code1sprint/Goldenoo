@@ -1,0 +1,6 @@
+{
+  "name": "Goldenoo Jewellery",
+  "description": "فروشگاه لوکس طلا و جواهرات گلدنو به همراه شبیه‌ساز طلا فروشی، ماشین حساب قیمت طلا و مشاور هوش مصنوعی اختصاصی",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
