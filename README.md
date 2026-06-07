@@ -1,10 +1,10 @@
 <div align="center">
 
-# ✦ GOLDENOO JEWELLERY ✦
+# GOLDENOO JEWELLERY
 
-**فروشگاه لوکس طلا و جواهرات گلدنو**
+**Luxury gold and jewellery e-commerce experience**
 
-تلفیق هنر زرگری اصیل ایرانی با فناوری روز — ماشین‌حساب شفاف قیمت طلا، نمایشگر سه‌بعدی جواهرات و مشاور هوش مصنوعی اختصاصی
+Traditional Iranian goldsmithing meets modern technology — transparent gold pricing, interactive 3D product viewing, and a dedicated AI shopping consultant.
 
 [![Deploy to GitHub Pages](https://github.com/code1sprint/Goldenoo/actions/workflows/deploy.yml/badge.svg)](https://github.com/code1sprint/Goldenoo/actions/workflows/deploy.yml)
 
@@ -12,112 +12,112 @@
 
 ---
 
-## 📖 درباره پروژه
+## About
 
-**گلدنو (Goldenoo)** یک وب‌اپلیکیشن فروشگاهی لوکس برای طلا و جواهرات است که با تمرکز بر بازار ایران طراحی شده است. رابط کاربری کاملاً **راست‌به‌چپ (RTL)** و به زبان فارسی است و تجربه‌ای شبیه گالری‌های جواهرات حرفه‌ای ارائه می‌دهد.
+**Goldenoo** is a luxury gold and jewellery storefront built for the Iranian market. The interface is fully **right-to-left (RTL)** and in Persian (Farsi), delivering an experience comparable to a high-end physical gallery.
 
-این پروژه فراتر از یک ویترین ساده عمل می‌کند:
+The project goes beyond a simple product showcase:
 
-- قیمت‌گذاری شفاف بر اساس **فرمول رسمی اصناف طلا** (طلای خام + اجرت ساخت + سود گالری + مالیات)
-- **نرخ زنده طلای ۱۸ عیار** با به‌روزرسانی خودکار
-- **مشاهده سه‌بعدی ۳۶۰ درجه** برخی محصولات
-- **مشاور هوش مصنوعی** مبتنی بر Google Gemini برای راهنمایی خرید
-
----
-
-## 🖼️ پیش‌نمایش
-
-### صفحه اصلی — Hero
-
-<img src="src/assets/images/%5BGoldenoo1%5D.png" alt="صفحه اصلی گلدنو" width="100%" />
-
-بنر سینمایی با تصویر انگشتر الماس، تضمین‌های خرید (طلای ۱۸ عیار ممهور، فاکتور هولوگرام‌دار، ارسال بیمه‌شده) و آمار برند.
+- Transparent pricing based on the **official Iranian gold guild formula** (raw gold + making fee + gallery profit + tax)
+- **Live 18K gold rate** with automatic refresh
+- **360-degree 3D viewing** for selected products
+- **AI consultant** powered by Google Gemini for purchase guidance
 
 ---
 
-### ماشین‌حساب هوشمند طلا
+## Preview
 
-<img src="src/assets/images/%5BGoldenoo2%5D.png" alt="ماشین حساب طلا گلدنو" width="100%" />
+### Homepage — Hero
 
-محاسبه لحظه‌ای قیمت نهایی فاکتور با جزئیات کامل (طلای خام، اجرت، سود ۷٪، مالیات ۹٪) و نمودار نوسانات هفتگی قیمت.
+<img src="src/assets/images/%5BGoldenoo1%5D.png" alt="Goldenoo homepage hero section" width="100%" />
 
----
-
-### ویترین محصولات
-
-<img src="src/assets/images/%5BGoldenoo3%5D.png" alt="ویترین محصولات گلدنو" width="100%" />
-
-کارت‌های محصول با امتیاز، وزن، درصد اجرت، قیمت تخمینی بر اساس نرخ روز و پشتیبانی از **نمایش ۳۶۰ درجه** برای مدل‌های سه‌بعدی.
+Cinematic banner with a diamond ring backdrop, purchase guarantees (stamped 18K gold, hologram invoice, insured shipping), and brand statistics.
 
 ---
 
-### آتلیه طراحی و فرآیند ساخت
+### Smart Gold Calculator
 
-<img src="src/assets/images/%5BGoldenoo4%5D.png" alt="آتلیه طراحی گلدنو" width="100%" />
+<img src="src/assets/images/%5BGoldenoo2%5D.png" alt="Goldenoo gold price calculator" width="100%" />
 
-نمایش تعاملی چهار مرحله تولید: اتود دستی، مدل‌سازی سه‌بعدی، ریخته‌گری و مخراج‌کاری.
-
----
-
-## ✨ قابلیت‌ها
-
-| قابلیت | توضیح |
-|--------|--------|
-| 🛍️ **کاتالوگ محصولات** | ۱۲ محصول در ۶ دسته: انگشتر، گردنبند، گوشواره، دستبند، نیم‌ست، سکه |
-| 💰 **قیمت‌گذاری پویا** | محاسبه قیمت بر اساس وزن، اجرت ساخت، نگین و نرخ زنده طلا |
-| 🧮 **ماشین‌حساب طلا** | شبیه‌ساز فاکتور با رعایت معافیت مالیاتی طلای خام (قانون ۱۴۰۱) |
-| 📈 **تیکر نرخ زنده** | به‌روزرسانی هر ۱۴ ثانیه از API سرور |
-| 🛒 **سبد خرید** | افزودن با انتخاب سایز و حکاکی لیزری، مدیریت تعداد |
-| 🔍 **جزئیات محصول** | مودال با مشخصات فنی، انتخاب سایز و نمایشگر ۳D |
-| 🤖 **مشاور AI** | چت فارسی با Gemini 3.5 Flash + پاسخ‌های پیش‌فرض بدون API |
-| 🏭 **بخش آتلیه** | تایم‌لاین تعاملی فرآیند ساخت دست‌ساز |
-| ⭐ **نظرات مشتریان** | کارت‌های testimonial با انیمیشن parallax |
-| 🎨 **طراحی لوکس** | تم تیره، طلایی، فونت Vazirmatn و Playfair Display |
+Real-time final invoice calculation with a full breakdown (raw gold, making fee, 7% profit, 9% VAT) and a weekly price fluctuation chart.
 
 ---
 
-## 🛠️ فناوری‌ها
+### Product Showcase
 
-### فرانت‌اند
+<img src="src/assets/images/%5BGoldenoo3%5D.png" alt="Goldenoo product grid" width="100%" />
+
+Product cards with ratings, weight, making fee percentage, live estimated price, and **360-degree viewing** for 3D models.
+
+---
+
+### Design Atelier & Craftsmanship Process
+
+<img src="src/assets/images/%5BGoldenoo4%5D.png" alt="Goldenoo atelier section" width="100%" />
+
+Interactive four-step production timeline: hand sketching, 3D modeling, centrifugal casting, and stone setting with final polish.
+
+---
+
+## Features
+
+| Feature | Description |
+|---------|-------------|
+| **Product catalog** | 12 products across 6 categories: rings, necklaces, earrings, bracelets, sets, coins |
+| **Dynamic pricing** | Price calculated from weight, making fee, gemstones, and live gold rate |
+| **Gold calculator** | Invoice simulator respecting raw gold VAT exemption (Iranian guild law) |
+| **Live rate ticker** | Refreshes every 14 seconds from the server API |
+| **Shopping cart** | Add items with size and laser engraving options, quantity management |
+| **Product details** | Modal with technical specs, size selection, and 3D viewer |
+| **AI consultant** | Persian chat via Gemini 3.5 Flash, with preset fallback responses when no API key is set |
+| **Atelier section** | Interactive timeline of the handmade production process |
+| **Customer reviews** | Testimonial cards with scroll parallax animations |
+| **Luxury design** | Dark and gold theme, Vazirmatn and Playfair Display fonts |
+
+---
+
+## Tech Stack
+
+### Frontend
 - **React 19** + **TypeScript**
-- **Vite 6** — بیلد و HMR
-- **Tailwind CSS 4** — استایل‌دهی
-- **Motion** — انیمیشن و parallax
-- **Three.js** + **React Three Fiber** + **Drei** — رندر مدل‌های GLB
-- **Lucide React** — آیکون‌ها
+- **Vite 6** — build tooling and HMR
+- **Tailwind CSS 4** — styling
+- **Motion** — animations and parallax
+- **Three.js** + **React Three Fiber** + **Drei** — GLB model rendering
+- **Lucide React** — icons
 
-### بک‌اند
-- **Express 4** — سرور یکپارچه با Vite در حالت توسعه
-- **Google GenAI SDK** — مشاور هوش مصنوعی
-- **dotenv** — مدیریت متغیرهای محیطی
+### Backend
+- **Express 4** — unified server with Vite middleware in development
+- **Google GenAI SDK** — AI consultant
+- **dotenv** — environment variable management
 
 ---
 
-## 📁 ساختار پروژه
+## Project Structure
 
 ```
 Goldenoo/
 ├── src/
-│   ├── App.tsx                 # روت اصلی و state مدیریت
+│   ├── App.tsx                 # Root component and state management
 │   ├── main.tsx
-│   ├── index.css               # تم Tailwind و فونت‌ها
-│   ├── types.ts                # تایپ‌های Product, CartItem, Message
+│   ├── index.css               # Tailwind theme and fonts
+│   ├── types.ts                # Product, CartItem, Message types
 │   ├── data/
-│   │   └── products.ts         # ۱۲ محصول نمونه
+│   │   └── products.ts         # 12 sample products
 │   ├── components/
-│   │   ├── Navbar.tsx          # ناوبری و فیلتر دسته‌بندی
-│   │   ├── Hero.tsx            # بنر parallax
-│   │   ├── Categories.tsx      # فیلتر دسته‌ها
-│   │   ├── ProductsList.tsx    # گرید محصولات + فرمول قیمت
-│   │   ├── GoldCalculator.tsx  # ماشین‌حساب + نمودار
+│   │   ├── Navbar.tsx          # Navigation and category filter
+│   │   ├── Hero.tsx            # Parallax banner
+│   │   ├── Categories.tsx      # Category filter
+│   │   ├── ProductsList.tsx    # Product grid and pricing formula
+│   │   ├── GoldCalculator.tsx  # Calculator and chart
 │   │   ├── ProductDetailModal.tsx
-│   │   ├── CartDrawer.tsx      # سبد خرید کشویی
-│   │   ├── AiConsultant.tsx    # چت مشاور AI
-│   │   ├── AtelierSection.tsx  # فرآیند ساخت
+│   │   ├── CartDrawer.tsx      # Slide-out shopping cart
+│   │   ├── AiConsultant.tsx    # AI chat consultant
+│   │   ├── AtelierSection.tsx  # Craftsmanship process
 │   │   └── Jewellery3DViewer.tsx
 │   └── assets/
-│       ├── images/             # تصاویر و اسکرین‌شات‌ها
-│       └── 3D/                 # مدل‌های GLB
+│       ├── images/             # Images and screenshots
+│       └── 3D/                 # GLB models
 ├── server.ts                   # API: gold-price, gemini/chat
 ├── vite.config.ts
 ├── index.html
@@ -126,32 +126,32 @@ Goldenoo/
 
 ---
 
-## 🚀 راه‌اندازی محلی
+## Local Setup
 
-### پیش‌نیازها
+### Prerequisites
 
-- **Node.js** نسخه ۲۰ یا بالاتر
-- کلید API گوگل Gemini (اختیاری — بدون آن پاسخ‌های پیش‌فرض فعال است)
+- **Node.js** 20 or later
+- Google Gemini API key (optional — preset responses are used when the key is not set)
 
-### مراحل نصب
+### Installation
 
 ```bash
-# ۱. کلون مخزن
+# 1. Clone the repository
 git clone https://github.com/code1sprint/Goldenoo.git
 cd Goldenoo
 
-# ۲. نصب وابستگی‌ها
+# 2. Install dependencies
 npm install
 
-# ۳. تنظیم متغیرهای محیطی
+# 3. Configure environment variables
 cp .env.example .env
-# مقدار GEMINI_API_KEY را در فایل .env قرار دهید
+# Set GEMINI_API_KEY in the .env file
 
-# ۴. اجرای سرور توسعه
+# 4. Start the development server
 npm run dev
 ```
 
-اپلیکیشن روی آدرس زیر در دسترس است:
+The app will be available at:
 
 ```
 http://localhost:3000
@@ -159,26 +159,26 @@ http://localhost:3000
 
 ---
 
-## 📜 اسکریپت‌ها
+## Scripts
 
-| دستور | کاربرد |
-|-------|--------|
-| `npm run dev` | اجرای Express + Vite در حالت توسعه |
-| `npm run build` | بیلد فرانت‌اند + باندل سرور برای production |
-| `npm run build:pages` | بیلد استاتیک برای GitHub Pages |
-| `npm run start` | اجرای سرور production |
-| `npm run preview` | پیش‌نمایش بیلد Vite |
-| `npm run lint` | بررسی TypeScript (`tsc --noEmit`) |
+| Command | Description |
+|---------|-------------|
+| `npm run dev` | Run Express + Vite in development mode |
+| `npm run build` | Build frontend and bundle server for production |
+| `npm run build:pages` | Static build for GitHub Pages |
+| `npm run start` | Run production server |
+| `npm run preview` | Preview Vite build |
+| `npm run lint` | TypeScript check (`tsc --noEmit`) |
 
 ---
 
-## 🔌 API Endpoints
+## API Endpoints
 
-سرور Express دو endpoint اصلی ارائه می‌دهد:
+The Express server exposes two main endpoints:
 
 ### `GET /api/gold-price`
 
-برگرداندن نرخ شبیه‌سازی‌شده طلای ۱۸ عیار (تومان/گرم):
+Returns a simulated 18K gold rate (Toman per gram):
 
 ```json
 {
@@ -190,48 +190,48 @@ http://localhost:3000
 
 ### `POST /api/gemini/chat`
 
-ارسال پیام به مشاور هوش مصنوعی:
+Send a message to the AI consultant:
 
 ```json
 // Request
-{ "message": "برای هدیه سالگرد تا ۷۰ میلیون پیشنهاد بده." }
+{ "message": "Suggest a gift for an anniversary under 70 million Tomans." }
 
 // Response
 { "text": "..." }
 ```
 
-> **نکته:** در حالت استاتیک (GitHub Pages) APIها در دسترس نیستند. برای استفاده کامل از مشاور AI و نرخ زنده، سرور Express را اجرا کنید.
+> **Note:** On static hosting (GitHub Pages), API endpoints are not available. Run the Express server locally or deploy it separately to use the AI consultant and live gold rate.
 
 ---
 
-## 💎 فرمول محاسبه قیمت
+## Pricing Formula
 
-قیمت نهایی هر محصول طلایی طبق استاندارد گالری گلدنو:
+Final price for each gold product follows the Goldenoo gallery standard:
 
 ```
-قیمت کل = [ (نرخ گرم ۱۸ عیار + اجرت ساخت) × وزن ]
-         + ۷٪ سود گالری
-         + ۹٪ مالیات (بر اجرت و سود — نه طلای خام)
-         + ارزش نگین
+Total = [ (18K rate per gram + making fee) × weight ]
+      + 7% gallery profit
+      + 9% VAT (on making fee and profit — not on raw gold)
+      + gemstone value
 ```
 
-این منطق در `ProductsList.tsx` و `GoldCalculator.tsx` پیاده‌سازی شده است.
+This logic is implemented in `ProductsList.tsx` and `GoldCalculator.tsx`.
 
 ---
 
-## 🌐 استقرار
+## Deployment
 
-### GitHub Pages (استاتیک)
+### GitHub Pages (static)
 
-با هر push به شاخه `main`، workflow خودکار بیلد و deploy می‌کند:
+Every push to the `main` branch triggers an automatic build and deploy:
 
 ```
 https://code1sprint.github.io/Goldenoo/
 ```
 
-> در این حالت فقط فرانت‌اند استاتیک deploy می‌شود. APIهای سرور (مشاور AI و نرخ طلا) نیاز به استقرار جداگانه Express دارند.
+> Only the static frontend is deployed. Server APIs (AI consultant and gold rate) require a separate Express deployment.
 
-### Production با سرور
+### Production with server
 
 ```bash
 npm run build
@@ -240,48 +240,48 @@ NODE_ENV=production npm run start
 
 ---
 
-## ⚙️ متغیرهای محیطی
+## Environment Variables
 
-| متغیر | الزامی | توضیح |
-|-------|--------|--------|
-| `GEMINI_API_KEY` | خیر | کلید API گوگل Gemini برای مشاور هوشمند |
-| `APP_URL` | خیر | آدرس میزبانی (برای AI Studio) |
-| `NODE_ENV` | خیر | `production` برای سرو فایل‌های استاتیک |
-
----
-
-## 🎨 طراحی UI
-
-- **پالت رنگی:** پس‌زمینه `#0c0c0d`، طلایی `#dfb76c`
-- **فونت‌ها:** Vazirmatn (متن فارسی)، Playfair Display (اعداد و عناوین)
-- **جهت:** RTL کامل با `direction: rtl`
-- **انیمیشن:** Parallax در Hero، fade-in در scroll، skeleton loading
+| Variable | Required | Description |
+|----------|----------|-------------|
+| `GEMINI_API_KEY` | No | Google Gemini API key for the AI consultant |
+| `APP_URL` | No | Hosting URL (used by AI Studio) |
+| `NODE_ENV` | No | Set to `production` to serve static files |
 
 ---
 
-## 📦 محصولات نمونه
+## UI Design
 
-| دسته | تعداد | نمونه |
-|------|-------|-------|
-| انگشتر | ۴ | سلطنتی الماس، سه‌بعدی انحصاری، آرتمیس، فلورانس |
-| گردنبند | ۲ | مدالیون الیزابت، زنجیر کارتیر |
-| گوشواره | ۲ | ونوس مروارید، حلقه‌ای گلد بکس |
-| دستبند | ۲ | تنیس برلیان، ون کلیف |
-| نیم‌ست | ۱ | یاقوت و برلیان مجلسی |
-| سکه | ۱ | تمام بهار آزادی (امامی) |
+- **Color palette:** background `#0c0c0d`, gold accent `#dfb76c`
+- **Fonts:** Vazirmatn (Persian text), Playfair Display (numbers and headings)
+- **Direction:** full RTL with `direction: rtl`
+- **Animations:** Hero parallax, scroll fade-in, skeleton loading states
 
 ---
 
-## 📄 مجوز
+## Sample Products
 
-این پروژه تحت مجوز **Apache-2.0** منتشر شده است.
+| Category | Count | Examples |
+|----------|-------|----------|
+| Rings | 4 | Royal diamond, exclusive 3D model, Artemis wave, Florence minimal |
+| Necklaces | 2 | Elizabeth medallion, Cartier chain |
+| Earrings | 2 | Venus pearl drop, Goldbox hoop |
+| Bracelets | 2 | Tennis diamond, Van Cleef chain |
+| Sets | 1 | Ruby and diamond bridal set |
+| Coins | 1 | Full Bahar Azadi (Emami) coin |
+
+---
+
+## License
+
+This project is released under the **Apache-2.0** license.
 
 ---
 
 <div align="center">
 
-ساخته شده با ✦ برای گالری گلدنو
+Built for Goldenoo Jewellery Gallery
 
-**[مشاهده دمو](https://code1sprint.github.io/Goldenoo/)** · **[گزارش باگ](https://github.com/code1sprint/Goldenoo/issues)**
+**[Live Demo](https://code1sprint.github.io/Goldenoo/)** · **[Report a Bug](https://github.com/code1sprint/Goldenoo/issues)**
 
 </div>
