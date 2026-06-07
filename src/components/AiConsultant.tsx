@@ -56,7 +56,7 @@ export default function AiConsultant({ isOpen, onClose, goldPrice18k }: AiConsul
     setLoading(true);
 
     try {
-      const response = await fetch('/api/gemini/chat', {
+      const response = await fetch(`${import.meta.env.BASE_URL}api/gemini/chat`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ message: textToSend }),

@@ -57,7 +57,7 @@ export default function App() {
   useEffect(() => {
     const fetchGoldRate = async () => {
       try {
-        const response = await fetch('/api/gold-price');
+        const response = await fetch(`${import.meta.env.BASE_URL}api/gold-price`);
         if (response.ok) {
           const data = await response.json();
           setGoldPrice18k(data.price18k);
